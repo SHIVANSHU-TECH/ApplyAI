@@ -1,8 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
-import JobList from '../../../components/JobList';
-import LoadingState from '../../../components/LoadingState';
-import Header from '../../../components/Header';
+import JobList from '../../components/JobList';
+import LoadingState from '../../components/LoadingState';
+import Header from '../../components/Header';
 
 export default function Dashboard() {
   const [results, setResults] = useState(null);
